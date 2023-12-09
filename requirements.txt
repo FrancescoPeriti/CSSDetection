@@ -1,0 +1,107 @@
+aiohttp==3.8.6
+aiosignal==1.3.1
+annotated-types==0.6.0
+anyio==3.7.1
+asttokens==2.4.1
+async-timeout==4.0.3
+attrs==23.1.0
+backcall==0.2.0
+beniget @ file:///dev/shm/SciPybundle/2022.05/foss-2022a/beniget/beniget-0.4.1
+Bottleneck @ file:///dev/shm/SciPybundle/2022.05/foss-2022a/Bottleneck/Bottleneck-1.3.4
+certifi==2023.7.22
+charset-normalizer==3.3.1
+click==8.1.7
+comm==0.1.4
+contourpy==1.2.0
+cycler==0.12.1
+datasets==2.14.6
+deap @ file:///dev/shm/SciPybundle/2022.05/foss-2022a/deap/deap-1.3.1
+debugpy==1.8.0
+decorator==5.1.1
+dill==0.3.7
+distro==1.8.0
+exceptiongroup==1.1.3
+executing==2.0.0
+expecttest @ file:///dev/shm/expecttest/0.1.3/GCCcore-11.3.0/expecttest-0.1.3
+filelock==3.12.4
+fonttools==4.44.0
+frozenlist==1.4.0
+fsspec==2023.10.0
+gast @ file:///dev/shm/SciPybundle/2022.05/foss-2022a/gast/gast-0.5.3
+h11==0.14.0
+httpcore==1.0.1
+httpx==0.25.1
+huggingface-hub==0.17.3
+idna==3.4
+ipykernel==6.26.0
+ipython==8.16.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter_client==8.5.0
+jupyter_core==5.4.0
+kiwisolver==1.4.5
+matplotlib==3.8.1
+matplotlib-inline==0.1.6
+mlrose==1.3.0
+mpi4py @ file:///dev/shm/SciPybundle/2022.05/foss-2022a/mpi4py/mpi4py-3.1.3
+mpmath @ file:///dev/shm/SciPybundle/2022.05/foss-2022a/mpmath/mpmath-1.2.1
+multidict==6.0.4
+multiprocess==0.70.15
+nest-asyncio==1.5.8
+networkx==3.2.1
+nltk==3.8.1
+numexpr @ file:///dev/shm/SciPybundle/2022.05/foss-2022a/numexpr/numexpr-2.8.1
+numpy @ file:///dev/shm/SciPybundle/2022.05/foss-2022a/numpy/numpy-1.22.3
+openai==1.1.1
+packaging==23.2
+pandas @ file:///dev/shm/SciPybundle/2022.05/foss-2022a/pandas/pandas-1.4.2
+parso==0.8.3
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow @ file:///dev/shm/Pillow/9.1.1/GCCcore-11.3.0/Pillow-9.1.1
+platformdirs==3.11.0
+ply @ file:///dev/shm/SciPybundle/2022.05/foss-2022a/ply/ply-3.11
+portalocker @ file:///dev/shm/PyTorch/1.12.0/foss-2022a-CUDA-11.7.0/portalocker/portalocker-2.6.0
+prompt-toolkit==3.0.39
+protobuf @ file:///dev/shm/protobufpython/3.19.4/GCCcore-11.3.0/protobuf-3.19.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyarrow==14.0.0
+pybind11 @ file:///dev/shm/pybind11/2.9.2/GCCcore-11.3.0/pybind11-2.9.2
+pydantic==2.4.2
+pydantic_core==2.10.1
+Pygments==2.16.1
+pyparsing==3.1.1
+python-dateutil==2.8.2
+pythran @ file:///dev/shm/SciPybundle/2022.05/foss-2022a/pythran/pythran-0.11.0
+pytz==2023.3.post1
+PyYAML @ file:///dev/shm/PyYAML/6.0/GCCcore-11.3.0/PyYAML-6.0
+pyzmq==25.1.1
+regex==2023.10.3
+requests==2.31.0
+safetensors==0.4.0
+scikit-learn==1.3.2
+SciPy @ file:///dev/shm/SciPybundle/2022.05/foss-2022a/scipy/scipy-1.8.1
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+six==1.16.0
+sklearn==0.0.post10
+sniffio==1.3.0
+stack-data==0.6.3
+tenacity==8.2.3
+threadpoolctl==3.2.0
+tokenizers==0.14.1
+torch==1.12.0
+torchdata @ file:///dev/shm/PyTorch/1.12.0/foss-2022a-CUDA-11.7.0/torchdata/data-0.4.0
+torchvision @ file:///dev/shm/PyTorch/1.12.0/foss-2022a-CUDA-11.7.0/torchvision/vision-0.13.0
+tornado==6.3.3
+tqdm==4.66.1
+traitlets==5.12.0
+transformers==4.34.1
+typing_extensions==4.8.0
+urllib3==2.0.7
+wcwidth==0.2.8
+WordTransformer==0.0.1
+xxhash==3.4.1
+yarl==1.9.2
