@@ -7,6 +7,7 @@ This is the official repository for our paper _A Systematic Comparison of Contex
 - [Abstract](#abstract)
 - [Getting Started](#getting-started)
 - [Reproducing Results](#reproducing-results)
+- [Evaluation Results](#evaluation-results)
 - [References](#references)
 
 ## Abstract
@@ -31,6 +32,13 @@ As GPT-4 is currently an expensive model, we provide our data for the English be
 For those interested in annotating data in languages other than English, input your OpenAI token into the ```chatgpt_api.sh``` file.
 
 If you choose to leverage our data, please remember to mention our work :)
+
+## Evaluation Results
+We share our evaluation result in folder ```stats```. The folder contains three file, namely ```layer-stats.tsv```, ```layer-combination-stats.tsv```, and ```wic-wsi-gcd-stats.tsv```.
+
+- ```layer-stats.tsv``` contains the results of Table 1 and 4 of our paper.
+- ```layer-combination-stats.tsv``` contains the results of Figure 2 and 3 of our paper.
+- ```wic-wsi-gcd-stats.tsv``` contains the results of Table 2.
 
 ## References
 ...
