@@ -27,7 +27,4 @@ pip install -r requirements.txt
 Reproducing all experiments at once is possible using our comprehensive script, ```run_experiments.sh```. However, please be aware that this may consume a significant amount of time and could be interrupted if your system lacks sufficient GPU resources or if you don't have an OpenAI account. Therefore, we highly recommend executing each command line by line to maintain full control over the experiments.
 
 ## References
-....
-### References
-
 ...
