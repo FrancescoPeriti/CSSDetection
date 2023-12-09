@@ -38,7 +38,7 @@ We share our evaluation result in folder ```stats```. The folder contains three 
 
 - ```layer-stats.tsv``` contains the results of Table 1 and 4 of our paper.
 - ```layer-combination-stats.tsv``` contains the results of Figure 2 and 3 of our paper.
-- ```wic-wsi-gcd-stats.tsv``` contains the results of Table 2.
+- ```wic-wsi-gcd-stats.tsv``` contains the results of Table 2 of our paper.
 
 ## References
 ...
