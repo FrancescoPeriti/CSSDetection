@@ -309,33 +309,34 @@ do
 
     if [[ $benchmark == "dwug_ru12" || $benchmark == "dwug_ru23" || $benchmark == "dwug_ru13" ]]
     then
-	wsi_lsc="compare"
+		wsi_lsc="compare"
     fi
 
     if [[ $benchmark == "dwug_en12" ]]
     then
-	python src/model_evaluation.py --benchmark "dwug_en12" --model "chatgpt" --layer "chatgpt" --wsi_lsc
+		python src/model_evaluation.py --benchmark "dwug_en12" --model "chatgpt" --layer "chatgpt" --wsi_lsc
     fi
     
 
     if [[ "$wsi_lsc" == "--wsi_lsc" ]]; then
     	python src/model_evaluation.py --benchmark "${benchmark}" --model "xl-lexeme" --layer "tuned" --wsi_lsc
-	python src/model_evaluation.py --benchmark "${benchmark}" --model "bert" --layer "12" --wsi_lsc
-	python src/model_evaluation.py --benchmark "${benchmark}" --model "mbert" --layer "12" --wsi_lsc
-	python src/model_evaluation.py --benchmark "${benchmark}" --model "xlm-r" --layer "12" --wsi_lsc
+		python src/model_evaluation.py --benchmark "${benchmark}" --model "bert" --layer "12" --wsi_lsc
+		python src/model_evaluation.py --benchmark "${benchmark}" --model "mbert" --layer "12" --wsi_lsc
+		python src/model_evaluation.py --benchmark "${benchmark}" --model "xlm-r" --layer "12" --wsi_lsc
     else
     	python src/model_evaluation.py --benchmark "${benchmark}" --model "xl-lexeme" --layer "tuned"
-	python src/model_evaluation.py --benchmark "${benchmark}" --model "bert" --layer "12"
-	python src/model_evaluation.py --benchmark "${benchmark}" --model "mbert" --layer "12"
-	python src/model_evaluation.py --benchmark "${benchmark}" --model "xlm-r" --layer "12"
+		python src/model_evaluation.py --benchmark "${benchmark}" --model "bert" --layer "12"
+		python src/model_evaluation.py --benchmark "${benchmark}" --model "mbert" --layer "12"
+		python src/model_evaluation.py --benchmark "${benchmark}" --model "xlm-r" --layer "12"
     fi
-
-    sbatch modeval77.sh "${benchmark}" "xl-lexeme" "tuned" "${wsi_lsc}"
-    sbatch modeval77.sh "${benchmark}" "bert" "12" "${wsi_lsc}"
-    sbatch modeval77.sh "${benchmark}" "mbert" "12" "${wsi_lsc}"
-    sbatch modeval77.sh "${benchmark}" "xlm-r" "12" "${wsi_lsc}"
 done
 
+#################################
+#################################
+#####  COMBINATIONS BOXPLOT  ####
+#################################
+#################################
+python src/boxplot.py
 
 #########
 #THE END#
