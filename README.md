@@ -43,4 +43,39 @@ We share our evaluation result in folder ```stats```. The folder contains three 
 - ```wic-wsi-gcd-stats.tsv``` contains the results of Table 2 of our paper.
 
 ## References
-...
+```
+@Misc{periti2024systematic,
+      title = {{A Systematic Comparison of Contextualized Word Embeddings for Lexical Semantic Change}}, 
+      author = {Francesco Periti and Nina Tahmasebi},
+      year = {2024},
+      eprint = {2402.12011},
+      archivePrefix = {arXiv},
+      primaryClass = {cs.CL},
+      url = {https://arxiv.org/abs/2402.12011}
+}
+```
+
+```
+@Misc{montanelli2023survey,
+      title = {{A Survey on Contextualised Semantic Shift Detection}}, 
+      author = {Stefano Montanelli and Francesco Periti},
+      year = {2023},
+      eprint = {2304.01666},
+      archivePrefix = {arXiv},
+      primaryClass = {cs.CL},
+      url = {https://arxiv.org/abs/2304.01666}
+}
+```
+
+```
+@InBook{tahmasebi2021survey,
+    author = {Tahmasebi, Nina  and Borin, Lars and Jatowt, Adam},
+    title = {{Survey of Computational Approaches to Lexical Semantic Change Detection}},
+    booktitle = {Computational approaches to semantic change},
+    pages = {1--91},
+    publisher = {Language Science Press},
+    year = {2021},
+    address = {Berlin},
+    doi = {10.5281/zenodo.5040302}
+}
+```
