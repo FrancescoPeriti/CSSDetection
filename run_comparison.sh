@@ -65,6 +65,17 @@ git clone https://github.com/pierluigic/xl-lexeme.git
 cd xl-lexeme
 pip3 install .
 
+####################################################
+####################################################
+### DOWNLOAD Correlation Clustering in Python ######
+####################################################
+####################################################
+
+# Download Correlation Clustering
+git clone https://github.com/Garrafao/correlation_clustering.git
+mv correlation_clustering/src/correlation.py src/correlation_clustering.py
+rm -rf correlation_clustering
+
 ##########################
 ##########################
 ## INSTALL REQUIREMENTS ##
