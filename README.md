@@ -44,26 +44,39 @@ We share our evaluation result in folder ```stats```. The folder contains three 
 
 ## References
 ```
-@Misc{periti2024systematic,
-      title = {{A Systematic Comparison of Contextualized Word Embeddings for Lexical Semantic Change}}, 
-      author = {Francesco Periti and Nina Tahmasebi},
-      year = {2024},
-      eprint = {2402.12011},
-      archivePrefix = {arXiv},
-      primaryClass = {cs.CL},
-      url = {https://arxiv.org/abs/2402.12011}
+@InProceedings{periti-tahmasebi-2024-systematic,
+    title = {{A Systematic Comparison of Contextualized Word Embeddings for Lexical Semantic Change}},
+    author = "Periti, Francesco  and Tahmasebi, Nina",
+    editor = "Duh, Kevin  and Gomez, Helena  and Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.240",
+    doi = "10.18653/v1/2024.naacl-long.240",
+    pages = "4262--4282",
 }
 ```
 
 ```
-@Misc{montanelli2023survey,
-      title = {{A Survey on Contextualised Semantic Shift Detection}}, 
-      author = {Stefano Montanelli and Francesco Periti},
-      year = {2023},
-      eprint = {2304.01666},
-      archivePrefix = {arXiv},
-      primaryClass = {cs.CL},
-      url = {https://arxiv.org/abs/2304.01666}
+@Article{periti2024survey,
+    author = {Periti, Francesco and Montanelli, Stefano},
+    title = {{Lexical Semantic Change through Large Language Models: a Survey}},
+    year = {2024},
+    issue_date = {November 2024},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {56},
+    number = {11},
+    issn = {0360-0300},
+    url = {https://doi.org/10.1145/3672393},
+    doi = {10.1145/3672393},
+    journal = {ACM Comput. Surv.},
+    month = {jun},
+    articleno = {282},
+    numpages = {38},
+    keywords = {Lexical semantics, lexical semantic change, semantic shift detection, large language models}
 }
 ```
 
