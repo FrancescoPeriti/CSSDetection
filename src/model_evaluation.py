@@ -35,7 +35,7 @@ def purity_score(y_true, y_pred):
 
 def load_gold_lsc(benchmark):
     if benchmark.startswith('dwug_ru'):
-        df = pd.read_csv(f'/mimer/NOBACKUP/groups/cik_data/rqlsc/{benchmark}/stats/stats_groupings.csv', sep='\t')
+        df = pd.read_csv(f'{benchmark}/stats/stats_groupings.csv', sep='\t')
         df = df.rename(columns={'COMPARE':'change_graded'})
     elif benchmark.startswith('dwug_no'):
         df = pd.read_csv(f'{benchmark}/stats/stats_groupings.tsv', sep='\t')
