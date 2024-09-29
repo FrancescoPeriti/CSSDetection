@@ -218,8 +218,7 @@ def WSI(dfs, gold_wsi_dfs):
 
         classes = []
         for init in range(1):
-            classes, _ = cluster_correlation_search(graph, 
-                                                    weight_threshold=0.0, # threshold for splitting edges
+            classes, _ = cluster_correlation_search(graph, #weight_threshold=0.0, # threshold for splitting edges
                                                     s=20, max_attempts=2000, max_iters=50000,
                                                     initial=classes)
         
